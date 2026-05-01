@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Civil Engineer & Virtual Assistant | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Animated Geometric Background -->
+    <canvas id="bg-canvas"></canvas>
+    <div class="bg-overlay"></div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">✅ Message sent successfully!</div>
+
+    <!-- Main Content -->
+    <div class="main-wrapper">
+        <!-- Navigation -->
+        <nav id="navbar">
+            <span class="nav-logo">⚙️ Portfolio</span>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#highlights">Highlights</a></li>
+                <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-content">
+                <div class="hero-text fade-in">
+                    <span class="badge">Available for Opportunities</span>
+                    <h1>Civil Engineer<br>& <span class="gold-accent">Virtual Assistant</span></h1>
+                    <p class="subtitle">
+                        Blending technical engineering precision with top-tier administrative support.
+                        I deliver structured, reliable, and high-quality results — whether on-site or online.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                        <a href="#services" class="btn btn-outline">Explore Services</a>
+                    </div>
+                </div>
+                <div class="hero-visual fade-in">
+                    <div class="hero-card-stack">
+                        <div class="hero-card card-front">
+                            <div class="icon-circle">🏗️</div>
+                            <h3>Civil Engineering</h3>
+                            <p>Structural design, project planning & site supervision</p>
+                        </div>
+                        <div class="hero-card card-back">
+                            <div class="icon-circle">💼</div>
+                            <h3>Virtual Assistance</h3>
+                            <p>Admin support, scheduling & data management</p>
+                        </div>
+                        <div class="hero-card card-back2">
+                            <div class="icon-circle">🎯</div>
+                            <h3>Dual Expertise</h3>
+                            <p>Precision meets productivity</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <div class="section-header fade-in">
+                <span class="section-badge">What I Offer</span>
+                <h2>Professional Services</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="services-grid">
+                <!-- Civil Engineering Card -->
+                <div class="service-card fade-in">
+                    <span class="card-icon">🏗️</span>
+                    <h3>Civil Engineering</h3>
+                    <p>From structural analysis to on-site project coordination, I bring technical rigor and practical problem-solving to every engineering challenge.</p>
+                    <div class="tags">
+                        <span class="tag">Structural Design</span>
+                        <span class="tag">AutoCAD</span>
+                        <span class="tag">Project Planning</span>
+                        <span class="tag">Site Supervision</span>
+                        <span class="tag">Cost Estimation</span>
+                        <span class="tag">Quality Control</span>
+                    </div>
+                </div>
+                <!-- Virtual Assistant Card -->
+                <div class="service-card fade-in">
+                    <span class="card-icon">💻</span>
+                    <h3>Virtual Assistant</h3>
+                    <p>Efficient, organized, and detail-oriented remote support. I handle administrative workloads so you can focus on scaling your business.</p>
+                    <div class="tags">
+                        <span class="tag">Email Management</span>
+                        <span class="tag">Calendar Scheduling</span>
+                        <span class="tag">Data Entry</span>
+                        <span class="tag">Research</span>
+                        <span class="tag">CRM Management</span>
+                        <span class="tag">Document Prep</span>
+                    </div>
+                </div>
+                <!-- Combined Card -->
+                <div class="service-card fade-in">
+                    <span class="card-icon">🔗</span>
+                    <h3>Integrated Support</h3>
+                    <p>A unique combination — I can manage engineering documentation, liaise with contractors, handle project timelines, and provide executive assistance all in one role.</p>
+                    <div class="tags">
+                        <span class="tag">Project Coordination</span>
+                        <span class="tag">Report Writing</span>
+                        <span class="tag">Stakeholder Communication</span>
+                        <span class="tag">Process Optimization</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Highlights Section -->
+        <section id="highlights">
+            <div class="section-header fade-in">
+                <span class="section-badge">Why Work With Me</span>
+                <h2>Key Highlights</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="highlights-grid">
+                <div class="highlight-item fade-in">
+                    <span class="highlight-number" data-count="100">0</span>
+                    <span class="highlight-label">Projects Completed</span>
+                </div>
+                <div class="highlight-item fade-in">
+                    <span class="highlight-number" data-count="45">0</span>
+                    <span class="highlight-label">Happy Clients</span>
+                </div>
+                <div class="highlight-item fade-in">
+                    <span class="highlight-number" data-count="8">0</span>
+                    <span class="highlight-label">Years Experience</span>
+                </div>
+                <div class="highlight-item fade-in">
+                    <span class="highlight-number" data-count="24">0</span>
+                    <span class="highlight-label">Hour Response Time</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="section-header fade-in">
+                <span class="section-badge">Let's Connect</span>
+                <h2>Get In Touch</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info fade-in">
+                    <h3>Ready to collaborate?</h3>
+                    <p>
+                        I'm currently open to full-time, contract, and freelance opportunities.
+                        Whether you need a civil engineer on your next infrastructure project or a
+                        reliable virtual assistant to streamline your operations — I'm here to help.
+                    </p>
+                    <div class="contact-detail">
+                        <span class="detail-icon">📍</span>
+                        <span>Available for remote & on-site work</span>
+                    </div>
+                    <div class="contact-detail">
+                        <span class="detail-icon">📧</span>
+                        <span>contact@yourportfolio.com</span>
+                    </div>
+                    <div class="contact-detail">
+                        <span class="detail-icon">🌐</span>
+                        <span>github.com/yourusername</span>
+                    </div>
+                </div>
+                <form class="contact-form fade-in" id="contactForm">
+                    <input type="text" placeholder="Your Name" required id="nameInput">
+                    <input type="email" placeholder="Your Email" required id="emailInput">
+                    <input type="text" placeholder="Subject (e.g., Civil Engineer Role)" id="subjectInput">
+                    <textarea placeholder="Tell me about your project or opportunity..." required id="messageInput"></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message ✉️</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 <a href="#">Your Name</a> — Civil Engineer & Virtual Assistant. Built with precision. Powered by dedication.</p>
+        </footer>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
