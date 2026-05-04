@@ -122,16 +122,6 @@ body {
   animation: float 4s ease-in-out infinite;
 }
 
-.like {
-  left: 48%;
-  top: 40%;
-}
-
-.heart {
-  left: 55%;
-  top: 38%;
-}
-
 /* ANIMATIONS */
 @keyframes float {
   0% { transform: translateY(0); }
